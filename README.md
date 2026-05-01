@@ -13,7 +13,8 @@ Within this repository, **Being-H0.5** is our flagship **VLA** model and **Being
 
 ## News
 
-- **[2026-04-14]**: We publish **Being-H0.7**, our flagship WAM model. See the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf).
+- **[2026-05-01]**: **Being-H0** is accepted by ICML 2026! Welcome to connect with the BeingBeyond Team at the venue then!🔥🔥 
+- **[2026-04-14]**: We publish **Being-H0.7**, our flagship WAM model. See the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf). Code and checkpoints are coming soon!
 - **[2026-03-20]**: We release the [UniHand_Preview](https://huggingface.co/datasets/BeingBeyond/UniHand_Preview) dataset, a subset of the Being-H0.5 pre-training mixture.
 - **[2026-01-24]**: We update the H0.5 training, inference, and data preparation docs, and open-source post-training data for PND Adam-U through our [Hugging Face dataset collection](https://huggingface.co/collections/BeingBeyond/pnd-adam-u-data).
 - **[2026-01-20]**: We publish **Being-H0.5**, our flagship VLA model for cross-embodiment generalization.
@@ -51,8 +52,8 @@ If you find the Being-H family useful, please consider citing the relevant relea
 
 ```bibtex
 @article{beingbeyond2026beingh05,
-  title={Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization},
-  author={Luo, Hao and Wang, Ye and Zhang, Wanpeng and Zheng, Sipeng and Xi, Ziheng and Xu, Chaoyi and Xu, Haiweng and Yuan, Haoqi and Zhang, Chi and Wang, Yiqing and Feng, Yicheng and Lu, Zongqing},
+  title={Being-H0. 5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization},
+  author={Luo, Hao and Wang, Ye and Zhang, Wanpeng and Zheng, Sipeng and Xi, Ziheng and Xu, Chaoyi and Xu, Haiweng and Yuan, Haoqi and Zhang, Chi and Wang, Yiqing and others},
   journal={arXiv preprint arXiv:2601.12993},
   year={2026}
 }
@@ -61,11 +62,12 @@ If you find the Being-H family useful, please consider citing the relevant relea
 **Being-H0**
 
 ```bibtex
-@article{beingbeyond2025beingh0,
-  title={Being-h0: vision-language-action pretraining from large-scale human videos},
+@inproceedings{beingbeyond2025beingh0,
+  title={Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos},
   author={Luo, Hao and Feng, Yicheng and Zhang, Wanpeng and Zheng, Sipeng and Wang, Ye and Yuan, Haoqi and Liu, Jiazheng and Xu, Chaoyi and Jin, Qin and Lu, Zongqing},
-  journal={arXiv preprint arXiv:2507.15597},
-  year={2025}
+  booktitle={International Conference on Machine Learning},
+  year={2026},
+  organization={PMLR}
 }
 ```
 
