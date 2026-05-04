@@ -21,14 +21,6 @@ This directory contains the released H0.5 codebase inside the unified `Being-H` 
 </video>
 </div>
 
-*(For our previous Being-H0 version, please visit the [being-h0](https://github.com/BeingBeyond/Being-H/tree/being-h0) branch.)*
-
-## News
-
-- **[2026-03-20]**: We release the [UniHand_Preview](https://huggingface.co/datasets/BeingBeyond/UniHand_Preview) dataset, which is a subset of the Being-H0.5 pre-training dataset. We hope this will be helpful to the research community. The complete pre-training parameter script is coming soon.
-- **[2026-01-24]**: We’ve updated the documents for training, inference, and data preparation along with example post-training scripts for Being-H0.5. Additionally, post-training data for the PND Adam-U robot is now open-sourced. Download it via our [Hugging Face Dataset Collections](https://huggingface.co/collections/BeingBeyond/pnd-adam-u-data).
-- **[2026-01-20]**: We publish the **Being-H0.5**! Check our [Paper](https://arxiv.org/pdf/2601.12993) for technical details and [Hugging Face Model Collections](https://huggingface.co/collections/BeingBeyond/being-h05) for pretrained and post-trained models. 🔥🔥🔥
-
 ## Model Checkpoints
 
 Download models from Hugging Face [Model Collections](https://huggingface.co/collections/BeingBeyond/being-h05):
@@ -41,17 +33,6 @@ Download models from Hugging Face [Model Collections](https://huggingface.co/col
 | **VLA Generalist** | [Being-H05-2B_libero_robocasa](https://huggingface.co/BeingBeyond/Being-H05-2B_libero_robocasa) | 2B | Post-trained on both LIBERO and RoboCasa |
 
 Note: the vision part is 224px by default.
-
-## Projects Based on Being-H
-
-We see many excellent projects using Being-H as the foundation model to build:
-
-- Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting. [arXiv 26'03](https://arxiv.org/abs/2603.16542) | [website](https://research.beingbeyond.com/ptr) | [GitHub](https://github.com/BeingBeyond/PTR)
-- DexHiL: A Human-in-the-Loop Framework for Vision-Language-Action Model Post-Training in Dexterous Manipulation. [arXiv 26'03](https://arxiv.org/abs/2603.09121) | [website](https://chenzhongxi-sjtu.github.io/dexhil/)
-- Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild. [arXiv 26'02](https://arxiv.org/abs/2602.21736) | [website](https://research.beingbeyond.com/jala) | [GitHub](https://github.com/BeingBeyond/JALA)
-- Rethinking Visual-Language-Action Model Scaling: Alignment, Mixture, and Regularization. [arXiv 26'02](https://arxiv.org/pdf/2602.09722) | [website](https://research.beingbeyond.com/rethink_vla) | [GitHub](https://github.com/BeingBeyond/Rethink_VLA)
-
-Feel free to pull a request to share your projects based on Being-H!
 
 ## Quick Start
 
@@ -184,8 +165,8 @@ If you find our work useful, please consider citing us and give a star to our re
 
 ```bibtex
 @article{beingbeyond2026beingh05,
-  title={Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization}, 
-  author={Luo, Hao and Wang, Ye and Zhang, Wanpeng and Zheng, Sipeng and Xi, Ziheng and Xu, Chaoyi and Xu, Haiweng and Yuan, Haoqi and Zhang, Chi and Wang, Yiqing and Feng, Yicheng and Lu, Zongqing},
+  title={Being-H0. 5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization},
+  author={Luo, Hao and Wang, Ye and Zhang, Wanpeng and Zheng, Sipeng and Xi, Ziheng and Xu, Chaoyi and Xu, Haiweng and Yuan, Haoqi and Zhang, Chi and Wang, Yiqing and others},
   journal={arXiv preprint arXiv:2601.12993},
   year={2026}
 }
