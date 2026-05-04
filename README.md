@@ -1,19 +1,19 @@
 # Being-H
 
 Being-H is BeingBeyond's family of human-centric embodied foundation models.
-Within this repository, **Being-H0.5** is our flagship **VLA** model and **Being-H0.7** is our flagship **WAM** model.
+Within this repository, **Being-H0.7** is our flagship **WAM** model and **Being-H0.5** is our flagship **VLA** model.
 
 ## Model Family
 
 | Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Positioning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary | Links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------|-------------|---------|-------|
-| [Being-H0.7](Being-H07/) | Flagship WAM | A latent world-action model from egocentric videos with future-aware latent reasoning. | [Blog](https://research.beingbeyond.com/being-h07) / [Paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf) |
-| [Being-H0.5](Being-H05/) | Flagship VLA | A human-centric VLA model for cross-embodiment generalization with a unified action space. | [Blog](https://research.beingbeyond.com/being-h05) / [Paper](https://arxiv.org/pdf/2601.12993) / [Models](https://huggingface.co/collections/BeingBeyond/being-h05) |
-| [Being-H0](https://github.com/BeingBeyond/Being-H/tree/being-h0) | Previous VLA | The first Being-H release for human-video VLA pretraining. | [Blog](https://research.beingbeyond.com/being-h0) / [Paper](https://arxiv.org/pdf/2507.15597) / [Models](https://huggingface.co/collections/BeingBeyond/being-h0) |
+| [Being-H0.7](Being-H07/) | Flagship WAM | A latent world-action model from egocentric videos with future-aware latent reasoning. | [Blog](https://research.beingbeyond.com/being-h07) / [Paper](https://arxiv.org/abs/2605.00078) |
+| [Being-H0.5](Being-H05/) | Flagship VLA | A human-centric VLA model for cross-embodiment generalization with a unified action space. | [Blog](https://research.beingbeyond.com/being-h05) / [Paper](https://arxiv.org/abs/2601.12993) / [Models](https://huggingface.co/collections/BeingBeyond/being-h05) |
+| [Being-H0](https://github.com/BeingBeyond/Being-H/tree/being-h0) | Previous VLA | The first Being-H release for human-video VLA pretraining. | [Blog](https://research.beingbeyond.com/being-h0) / [Paper](https://arxiv.org/abs/2507.15597) / [Models](https://huggingface.co/collections/BeingBeyond/being-h0) |
 
 ## News
 
-- **[2026-05-01]**: **Being-H0** is accepted by ICML 2026! Welcome to connect with the BeingBeyond Team at the venue then!🔥🔥 
+- **[2026-05-01]**: **Being-H0** is accepted by ICML 2026! Welcome to connect with the BeingBeyond Team at the venue then! 🔥🔥 
 - **[2026-04-14]**: We publish **Being-H0.7**, our flagship WAM model. See the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf). Code and checkpoints are coming soon!
 - **[2026-03-20]**: We release the [UniHand_Preview](https://huggingface.co/datasets/BeingBeyond/UniHand_Preview) dataset, a subset of the Being-H0.5 pre-training mixture.
 - **[2026-01-24]**: We update the H0.5 training, inference, and data preparation docs, and open-source post-training data for PND Adam-U through our [Hugging Face dataset collection](https://huggingface.co/collections/BeingBeyond/pnd-adam-u-data).
@@ -26,10 +26,12 @@ Within this repository, **Being-H0.5** is our flagship **VLA** model and **Being
 
 We are seeing a growing set of excellent projects built on top of the Being-H family:
 
+- Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models. [arXiv 26'04](https://arxiv.org/abs/2604.18000) | [website](https://research.beingbeyond.com/better) | [GitHub](https://github.com/BeingBeyond/BeTTER)
 - Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting. [arXiv 26'03](https://arxiv.org/abs/2603.16542) | [website](https://research.beingbeyond.com/ptr) | [GitHub](https://github.com/BeingBeyond/PTR)
 - DexHiL: A Human-in-the-Loop Framework for Vision-Language-Action Model Post-Training in Dexterous Manipulation. [arXiv 26'03](https://arxiv.org/abs/2603.09121) | [website](https://chenzhongxi-sjtu.github.io/dexhil/)
 - Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild. [arXiv 26'02](https://arxiv.org/abs/2602.21736) | [website](https://research.beingbeyond.com/jala) | [GitHub](https://github.com/BeingBeyond/JALA)
 - Rethinking Visual-Language-Action Model Scaling: Alignment, Mixture, and Regularization. [arXiv 26'02](https://arxiv.org/pdf/2602.09722) | [website](https://research.beingbeyond.com/rethink_vla) | [GitHub](https://github.com/BeingBeyond/Rethink_VLA)
+- Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos. [arXiv 25'12](https://arxiv.org/pdf/2512.13080) | [website](https://research.beingbeyond.com/vipa-vla) | [GitHub](https://github.com/BeingBeyond/VIPA-VLA)
 
 Feel free to open a pull request if you want to share work built on Being-H.
 
@@ -40,11 +42,11 @@ If you find the Being-H family useful, please consider citing the relevant relea
 **Being-H0.7**
 
 ```bibtex
-@misc{beingbeyond2026beingh07,
-  title={Being-H0.7: A Latent World-Action Model from Egocentric Videos},
-  author={BeingBeyond Team},
-  year={2026},
-  howpublished={\url{https://research.beingbeyond.com/being-h07}}
+@article{beingbeyond2026beingh07,
+  title={Being-H0. 7: A Latent World-Action Model from Egocentric Videos},
+  author={Luo, Hao and Zhang, Wanpeng and Feng, Yicheng and Zheng, Sipeng and Xu, Haiweng and Xu, Chaoyi and Xi, Ziheng and Fu, Yuhui and Lu, Zongqing},
+  journal={arXiv preprint arXiv:2605.00078},
+  year={2026}
 }
 ```
 
