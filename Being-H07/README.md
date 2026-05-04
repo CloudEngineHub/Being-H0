@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Blog](https://img.shields.io/badge/Blog-Being--H07-green)](https://research.beingbeyond.com/being-h07)
-[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/pdf/2605.00078)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](../LICENSE)
 
 </div>
@@ -12,7 +12,7 @@ Being-H0.7 is BeingBeyond's flagship **WAM** model, built as a **latent world-ac
 
 ## News
 
-- **[2026-04-14]**: We publish **Being-H0.7**. Read the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf) for the latest overview.
+- **[2026-04-14]**: We publish **Being-H0.7**. Read the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://arxiv.org/abs/2605.00078) for the latest overview.
 
 ## Overview
 
@@ -26,10 +26,10 @@ The core idea is to insert a compact latent reasoning interface between multimod
 ## Citation
 
 ```bibtex
-@misc{beingbeyond2026beingh07,
-  title={Being-H0.7: A Latent World-Action Model from Egocentric Videos},
-  author={BeingBeyond Team},
-  year={2026},
-  howpublished={\url{https://research.beingbeyond.com/being-h07}}
+@article{beingbeyond2026beingh07,
+  title={Being-H0. 7: A Latent World-Action Model from Egocentric Videos},
+  author={Luo, Hao and Zhang, Wanpeng and Feng, Yicheng and Zheng, Sipeng and Xu, Haiweng and Xu, Chaoyi and Xi, Ziheng and Fu, Yuhui and Lu, Zongqing},
+  journal={arXiv preprint arXiv:2605.00078},
+  year={2026}
 }
 ```
