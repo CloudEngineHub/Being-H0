@@ -167,8 +167,7 @@ def get_frames_by_timestamps(
             loaded_ts.append(current_ts)
             if current_ts >= last_ts:
                 break
-            if len(loaded_frames) >= len(timestamps):
-                break
+          
         reader.container.close()
         reader = None
         frames = np.array(loaded_frames)
