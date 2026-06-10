@@ -13,6 +13,7 @@ Within this repository, **Being-H0.7** is our flagship **WAM** model and **Being
 
 ## News
 
+- **[2026-06-09]**: We add [Being-H-EDU](tutorials/Being-H-EDU/), an educational tutorial workspace for post-training and deployment examples.
 - **[2026-05-01]**: **Being-H0** is accepted by ICML 2026! Welcome to connect with the BeingBeyond Team at the venue then! 🔥🔥 
 - **[2026-04-14]**: We publish **Being-H0.7**, our flagship WAM model. See the [blog](https://research.beingbeyond.com/being-h07) and [paper](https://research.beingbeyond.com/projects/being-h07/being-h07.pdf). Code and checkpoints are coming soon!
 - **[2026-03-20]**: We release the [UniHand_Preview](https://huggingface.co/datasets/BeingBeyond/UniHand_Preview) dataset, a subset of the Being-H0.5 pre-training mixture.
@@ -34,6 +35,11 @@ We are seeing a growing set of excellent projects built on top of the Being-H fa
 - Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos. [arXiv 25'12](https://arxiv.org/pdf/2512.13080) | [website](https://research.beingbeyond.com/vipa-vla) | [GitHub](https://github.com/BeingBeyond/VIPA-VLA)
 
 Feel free to open a pull request if you want to share work built on Being-H.
+
+## Tutorials
+
+- [Tutorials](tutorials/) collect practical examples for adapting, post-training, evaluating, and deploying Being-H models on educational robots and community benchmarks.
+- [Being-H-EDU](tutorials/Being-H-EDU/): an educational tutorial workspace for data processing, post-training, and local robot deployment with Being-H0.5. The current public example supports SO101.
 
 ## Citation
 
